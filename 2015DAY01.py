@@ -14,6 +14,5 @@ for step in instructions:
     # if counter < 0: #PART TWO
     #     break
     
-
 # print(counter)
 # print(index) #PART TWO
