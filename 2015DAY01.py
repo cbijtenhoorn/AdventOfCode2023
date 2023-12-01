@@ -1,6 +1,7 @@
-with open('2015DAY01INPUT.txt') as input:
-    for line in input:
-        instructions = [*line]
+# with open('2015DAY01INPUT.txt') as input:
+#     for line in input:
+#         instructions = [*line]
+instructions = open("2015DAY01INPUT.txt").read()
 
 counter = 0
 # index = 0 #PART TWO
@@ -14,5 +15,5 @@ for step in instructions:
     #     break
     
 
-print(counter)
+# print(counter)
 # print(index) #PART TWO
